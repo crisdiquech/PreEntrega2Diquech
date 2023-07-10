@@ -23,9 +23,9 @@ body {
     
 }
 */
-
+/*
 header {
-    background-color: rgb(116, 116, 252);
+    background-color: #1f1f1f;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -34,15 +34,18 @@ header {
  
 
 }
-
-
-
-#logo {
-    
-    height: 100px;
-
-    
+*/
+/*
+ul {
+    display: inline-block;
 }
+
+li {
+    display: inline-block;
+    color: #f0f0f0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+*/
 
 header form {
     display: inline-block;
@@ -51,6 +54,22 @@ header form {
 a {
     text-decoration: none;
 }
+
+
+
+
+.navbar-logo {
+    height: 50px;
+}
+.container-fluid {
+    background-color: #1f1f1f;
+
+}
+
+.nav-link  {
+    color: aliceblue;
+}
+
 
 .titulos-formularios {
     font-family: 'Bebas Neue', sans-serif;
@@ -106,7 +125,7 @@ footer {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(116, 116, 252);
+    background-color: #1f1f1f;
     width: 100%;
     margin-top: 20px;
   
@@ -180,7 +199,7 @@ article {
 }
 
 
-
+/*
 #index {
     display: grid;
     grid-template-columns: 100% ;
@@ -191,6 +210,7 @@ article {
     "footer"
     ;
 }
+*/
 header {
     grid-area: header;
 }
