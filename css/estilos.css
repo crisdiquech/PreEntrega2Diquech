@@ -2,13 +2,17 @@
     margin: 0%;
     padding: 0%;
 }
-
+/*
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
 
 
 body {
-    background-color: #1f1f1f;
+    background-color: #282728;
 
 }
 
@@ -55,31 +59,72 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color:#e40647
+}
+/* etiqueta en bootstrap para el boton de buscar .btn-outline-success {
 
+*/
 
+/* Navegador */
 
 .navbar-logo {
-    height: 50px;
+    height: 60px;
 }
 .container-fluid {
-    background-color: #1f1f1f;
-
+    background-color: #282728;
 }
+
+.navbar {
+    --bs-navbar-padding-y: 0; 
+    margin-bottom: 10px;
+}
+
+/* .navbar para cambiar color del hover de los link del nav*/
+
 
 .nav-link  {
-    color: aliceblue;
+    color: #f7f8f8;
+}
+
+/*
+.ingresa {
+    border-style:solid;
+    border-radius: 10%;
+    border-color: #e40647;
+}
+*/
+
+
+.btn-outline-success {
+    color: #f7f8f8; 
+    border-color: #e40647;
+    background-color: #e40647;
+    margin-right: 0rem;
+    
+}
+
+.me-autob {
+    margin-right: 5px;
 }
 
 
+/* .me-2 para modificar margen del form buscar */ 
+
+
+.img-evento {
+    width: 100%;
+}
+
 .titulos-formularios {
-    font-family: 'Bebas Neue', sans-serif;
-    color: rgb(199, 255, 246);
+    font-family: 'Manjari', sans-serif;
+    color: #f7f8f8;
     font-size: large;
 }
 
 .titulos {
-    font-family: 'Bebas Neue', sans-serif;
-    color: rgb(47, 160, 141);
+    font-family: 'Manjari', sans-serif;
+    color: #f7f8f8;
     text-align: center;
     font-size: 30px;
     margin-top: 20px;
@@ -96,8 +141,8 @@ a {
 }
 
 .contacto {
-    font-family: 'Bebas Neue', sans-serif;
-    color: rgb(172, 0, 191);
+    font-family: 'Manjari', sans-serif;
+    color: #f7f8f8;
     text-align: center;
 }
 
@@ -108,38 +153,73 @@ a {
     align-items: center;
 }
 
-.footer {
-   
-    color: rgb(172, 0, 191);
-    font-family: 'Bebas Neue', sans-serif;  
-    font-weight: bold;
-  
-
-}
 
 
 
+/*
 footer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    background-color: #1f1f1f;
+    background-color: #282728;
     width: 100%;
     margin-top: 20px;
   
 }
+*/
+
+.footer {
+    font-family: 'Manjari', sans-serif;
+    color: #f7f8f8;
+}
 
 
 #footer-pages {
-    margin-left: 50px;
+    margin-left: 20px;
+    grid-area: footer-pages;
+    justify-self:start;
+    align-self: center;
 
 }
 #footer-social{
-    margin-right: 50px;
+    margin-right: 20px;
+    grid-area: footer-social;
+    justify-self: end;
+    align-self: center;
 }
 
+#footer-derechos {
+   
+    color: rgb(247, 248, 248);
+    font-family: 'Manjari', sans-serif;
+    justify-self: center;
+    grid-area: footer-derechos;
+    margin-top: 10px;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas:
+    "footer-pages footer-social"
+    "footer-derechos footer-derechos"
+    
+    ;
+    grid-area: footer;  
+    margin-top: 20px;
+    
+}
+
+
+h3 {
+    font-size: small;
+    color: #f7f8f8;
+    font-family: 'Manjari', sans-serif;
+    text-align: center;
+   
+}
 
 
 article {
@@ -147,7 +227,7 @@ article {
 }
 
 .parrafo {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Manjari', sans-serif;
     text-align: center;
     font-weight: bold;
     color:rgb(240, 134, 216)
@@ -155,47 +235,49 @@ article {
 }
 
 .informacion {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Manjari', sans-serif;
     color:rgb(240, 134, 216)
 
 }
 
 #busqueda {
     color: rgb(47, 160, 141);
-    font-family: 'Bebas Neue', sans-serif;
-   
+    font-family: 'Manjari', sans-serif;
 }
 
 #resultados {
     color: rgb(47, 160, 141);
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Manjari', sans-serif;
     font-size: 10px;
 }
 
 .ingresa {
-    color: rgb(238, 150, 26);
-    font-family: 'Bebas Neue', sans-serif;
+    color: #f7f8f8;
+    font-family: 'Manjari', sans-serif;
+    
 }
 
 .registrate {
-    color: rgb(238, 150, 26);
-    font-family: 'Bebas Neue', sans-serif;
+    
+    
+    color: #f7f8f8;
+    font-family: 'Manjari', sans-serif;
 }
 
 .mision-vision {
-     font-family: 'Bebas Neue', sans-serif;
+     font-family: 'Manjari', sans-serif;
      color: rgb(172, 0, 191);
      text-align: center;
 }
 
 #datoscompra {
     color: rgb(47, 160, 141);
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Manjari', sans-serif;
 }
 
 #eventocompra {
     color: rgb(47, 160, 141);
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Manjari', sans-serif;
 }
 
 
@@ -217,13 +299,6 @@ header {
 
 section{
     grid-area: section;
-}
-
-
-footer {
-    grid-area: footer;
-   
-    
 }
 
 #registro {
