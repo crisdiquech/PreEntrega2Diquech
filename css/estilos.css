@@ -2,17 +2,17 @@
     margin: 0%;
     padding: 0%;
 }
-/*
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-*/
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
 
 
 body {
+
     background-color: #282728;
+    
 
 }
 
@@ -97,7 +97,7 @@ a:hover {
 
 
 .btn-outline-success {
-    color: #f7f8f8; 
+    color: #f7f8f8;
     border-color: #e40647;
     background-color: #e40647;
     margin-right: 0rem;
@@ -204,13 +204,11 @@ footer {
     grid-template-rows: 1fr 1fr ;
     grid-template-areas:
     "footer-pages footer-social"
-    "footer-derechos footer-derechos"
-    
-    ;
+    "footer-derechos footer-derechos";
     grid-area: footer;  
-    margin-top: 20px;
+   
     
-}
+  }
 
 
 h3 {
@@ -229,8 +227,7 @@ article {
 .parrafo {
     font-family: 'Manjari', sans-serif;
     text-align: center;
-    font-weight: bold;
-    color:rgb(240, 134, 216)
+    color:#f7f8f8
 
 }
 
@@ -266,7 +263,7 @@ article {
 
 .mision-vision {
      font-family: 'Manjari', sans-serif;
-     color: rgb(172, 0, 191);
+     color:#f7f8f8;
      text-align: center;
 }
 
@@ -376,6 +373,8 @@ section{
     ;
 }
 
+
+/*
 #servicios {
     display: grid;
     grid-template-columns: 100% ;
@@ -388,6 +387,49 @@ section{
     "seccion2"
     "footer"
     ;
+}
+*/
+
+.servicios {
+    margin-top: 30px;
+}
+.contactarme {
+    background-color: #e40647;
+    font-family: 'Manjari', sans-serif;
+    border-radius: 10%;
+    color: #f7f8f8;
+    padding: 5px;
+}
+
+.consulta{
+    background-color: #e40647;
+    font-family: 'Manjari', sans-serif;
+    border-radius: 10%;
+    color: #f7f8f8;
+    padding: 5px;
+}
+
+
+
+.informacion {
+    font-family: 'Manjari', sans-serif;
+    color: #f7f8f8;
+
+}
+
+h2 {
+    font-family: 'Manjari', sans-serif;
+    color:#f7f8f8
+}
+
+.form-contacto {
+    margin-top: 20px; 
+}
+
+form input {
+    border-radius: 10%;
+    padding: 2px;
+    
 }
 
 /*
