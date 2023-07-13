@@ -3,8 +3,6 @@
     padding: 0%;
 }
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
 
@@ -17,25 +15,23 @@ body {
     background-color: #282728;
     }
 
-section {
- 
-}
-
-
-
 header form {
     display: inline-block;
 }
 
 a {
     text-decoration: none;
+    color: #f7f8f8;
 }
 
 a:hover {
     color:#e40647
 }
-/* etiqueta en bootstrap para el boton de buscar .btn-outline-success */
 
+.nav__buscar:hover {
+    color: #f7f8f8;
+    
+}
 .navbar-logo {
     height: 60px;
 }
@@ -48,7 +44,6 @@ a:hover {
     margin-bottom: 10px;
 }
 /* .navbar para cambiar color del hover de los link del nav*/
-
 
 .nav-link  {
     color: #f7f8f8;
@@ -76,7 +71,7 @@ a:hover {
     font-size: large;
 }
 
-.titulos {
+.seccion__titulos {
     font-family: 'Manjari', sans-serif;
     color: #f7f8f8;
     text-align: center;
@@ -87,7 +82,6 @@ a:hover {
 
 .iconos {
     height: 20px;
-    
 }
 
 .redes {
@@ -107,60 +101,16 @@ a:hover {
     align-items: center;
 }
 
-.footer {
-    font-family: 'Manjari', sans-serif;
-    color: #f7f8f8;
-}
-
-
-.footer__pages {
-    margin-left: 20px;
-    grid-area: footer-pages;
-    justify-self:start;
-    align-self: center;
-
-}
-.footer__social{
-    margin-right: 20px;
-    grid-area: footer-social;
-    justify-self: end;
-    align-self: center;
-}
-
-.footer__derechos {
-   
-    color: rgb(247, 248, 248);
-    font-family: 'Manjari', sans-serif;
-    justify-self: center;
-    grid-area: footer-derechos;
-    margin-top: 10px;
-}
-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
-    grid-template-areas:
-    "footer-pages footer-social"
-    "footer-derechos footer-derechos";
-    grid-area: footer;  
-    align-content: end;
-    position:relative;
-    bottom:0%;
-    width: 100%;
-   
-   
-
-   
-    
-  }
-
-
 h3 {
     font-size: small;
     color: #f7f8f8;
     font-family: 'Manjari', sans-serif;
-    text-align: center;
-   
+    text-align: center;  
+}
+
+h2 {
+    font-family: 'Manjari', sans-serif;
+    color:#f7f8f8
 }
 
 .form__texto {
@@ -168,47 +118,39 @@ h3 {
     color: #f7f8f8;
     font-family: 'Manjari', sans-serif;
     text-align: center;
-   
+    margin-bottom: 10px; 
 }
-
 
 article {
     display: inline-block;
 }
 
-.parrafo {
+.seccion__parrafo {
     font-family: 'Manjari', sans-serif;
     text-align: center;
     color:#f7f8f8
-
 }
 
-.informacion {
+.seccion__informacion {
     font-family: 'Manjari', sans-serif;
-    color:rgb(240, 134, 216)
-
+    color:rgb(240, 134, 216);
+    font-size: medium;
+    text-align: center;
 }
 
-#busqueda {
-    color: rgb(47, 160, 141);
+.formulario__selector {
     font-family: 'Manjari', sans-serif;
-}
-
-#resultados {
-    color: rgb(47, 160, 141);
-    font-family: 'Manjari', sans-serif;
-    font-size: 10px;
+    color:#f7f8f8;
+    font-size: medium;
+    text-align:center;
 }
 
 .ingresa {
     color: #f7f8f8;
-    font-family: 'Manjari', sans-serif;
-    
+    font-family: 'Manjari', sans-serif;    
 }
 
-.registrate {
-    
-    
+.registrate { 
     color: #f7f8f8;
     font-family: 'Manjari', sans-serif;
 }
@@ -218,8 +160,6 @@ article {
      color:#f7f8f8;
      text-align: center;
 }
-
-
 
 #datoscompra {
     color: rgb(47, 160, 141);
@@ -231,24 +171,19 @@ article {
     font-family: 'Manjari', sans-serif;
 }
 
-
-
 header {
     grid-area: header;
    margin-bottom: 30px;
 }
 
-
 .registrate {
     grid-area: registrate;
 }
 
-
-
-
 .servicios {
     margin-top: 30px;
 }
+
 .form__boton {
     background-color: #e40647;
     font-family: 'Manjari', sans-serif;
@@ -265,17 +200,9 @@ header {
     padding: 5px;
 }
 
-
-
 .informacion {
     font-family: 'Manjari', sans-serif;
     color: #f7f8f8;
-
-}
-
-h2 {
-    font-family: 'Manjari', sans-serif;
-    color:#f7f8f8
 }
 
 .form-contacto {
@@ -286,3 +213,45 @@ form input {
     border-radius: 10%;
     padding: 2px;
 }
+
+.footer {
+    font-family: 'Manjari', sans-serif;
+    color: #f7f8f8;
+}
+
+.footer__pages {
+    margin-left: 20px;
+    grid-area: footer-pages;
+    justify-self:start;
+    align-self: center;
+    font-family: 'Manjari', sans-serif;
+    color: #f7f8f8;
+}
+.footer__social{
+    margin-right: 20px;
+    grid-area: footer-social;
+    justify-self: end;
+    align-self: center;
+}
+
+.footer__derechos { 
+    color: rgb(247, 248, 248);
+    font-family: 'Manjari', sans-serif;
+    justify-self: center;
+    grid-area: footer-derechos;
+    margin-top: 10px;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas:
+    "footer-pages footer-social"
+    "footer-derechos footer-derechos";
+    grid-area: footer;  
+    align-content: end;
+    position:relative;
+    margin-top: 20px;
+    bottom:0%;
+    width: 100%;
+  }
