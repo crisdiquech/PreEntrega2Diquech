@@ -8,48 +8,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
 
-
+html {
+    height: 100vh;
+}
 body {
+    height: 100%;
 
     background-color: #282728;
-    
-
-}
-
-/*
-
-@media screen and (max-width: 1000px) {
-
-    body {
-        background-color: aquamarine;
-    
     }
-    
-}
-*/
-/*
-header {
-    background-color: #1f1f1f;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+
+section {
  
-
-}
-*/
-/*
-ul {
-    display: inline-block;
 }
 
-li {
-    display: inline-block;
-    color: #f0f0f0;
-    font-family: 'Bebas Neue', sans-serif;
-}
-*/
+
 
 header form {
     display: inline-block;
@@ -62,11 +34,7 @@ a {
 a:hover {
     color:#e40647
 }
-/* etiqueta en bootstrap para el boton de buscar .btn-outline-success {
-
-*/
-
-/* Navegador */
+/* etiqueta en bootstrap para el boton de buscar .btn-outline-success */
 
 .navbar-logo {
     height: 60px;
@@ -79,7 +47,6 @@ a:hover {
     --bs-navbar-padding-y: 0; 
     margin-bottom: 10px;
 }
-
 /* .navbar para cambiar color del hover de los link del nav*/
 
 
@@ -87,30 +54,17 @@ a:hover {
     color: #f7f8f8;
 }
 
-/*
-.ingresa {
-    border-style:solid;
-    border-radius: 10%;
-    border-color: #e40647;
-}
-*/
-
-
 .btn-outline-success {
     color: #f7f8f8;
     border-color: #e40647;
     background-color: #e40647;
-    margin-right: 0rem;
-    
+    margin-right: 0rem;  
 }
 
 .me-autob {
     margin-right: 5px;
 }
-
-
 /* .me-2 para modificar margen del form buscar */ 
-
 
 .img-evento {
     width: 100%;
@@ -153,44 +107,27 @@ a:hover {
     align-items: center;
 }
 
-
-
-
-/*
-footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #282728;
-    width: 100%;
-    margin-top: 20px;
-  
-}
-*/
-
 .footer {
     font-family: 'Manjari', sans-serif;
     color: #f7f8f8;
 }
 
 
-#footer-pages {
+.footer__pages {
     margin-left: 20px;
     grid-area: footer-pages;
     justify-self:start;
     align-self: center;
 
 }
-#footer-social{
+.footer__social{
     margin-right: 20px;
     grid-area: footer-social;
     justify-self: end;
     align-self: center;
 }
 
-#footer-derechos {
+.footer__derechos {
    
     color: rgb(247, 248, 248);
     font-family: 'Manjari', sans-serif;
@@ -206,12 +143,27 @@ footer {
     "footer-pages footer-social"
     "footer-derechos footer-derechos";
     grid-area: footer;  
+    align-content: end;
+    position:relative;
+    bottom:0%;
+    width: 100%;
+   
+   
+
    
     
   }
 
 
 h3 {
+    font-size: small;
+    color: #f7f8f8;
+    font-family: 'Manjari', sans-serif;
+    text-align: center;
+   
+}
+
+.form__texto {
     font-size: small;
     color: #f7f8f8;
     font-family: 'Manjari', sans-serif;
@@ -267,6 +219,8 @@ article {
      text-align: center;
 }
 
+
+
 #datoscompra {
     color: rgb(47, 160, 141);
     font-family: 'Manjari', sans-serif;
@@ -278,37 +232,12 @@ article {
 }
 
 
-/*
-#index {
-    display: grid;
-    grid-template-columns: 100% ;
-    grid-template-rows:auto auto auto;
-    grid-template-areas: 
-    "header"
-    "section"
-    "footer"
-    ;
-}
-*/
+
 header {
     grid-area: header;
+   margin-bottom: 30px;
 }
 
-section{
-    grid-area: section;
-}
-
-#registro {
-    display: grid;
-    grid-template-columns: 100% ;
-    grid-template-rows:100px 500px 50px;
-    grid-template-areas: 
-    "header"
-    "registrate"
-    "footer"
-
-    ;
-}
 
 .registrate {
     grid-area: registrate;
@@ -317,83 +246,10 @@ section{
 
 
 
-#login {
-    display: grid;
-    grid-template-columns: 100% ;
-    grid-template-rows:100px 2% auto 2% auto 50px;
-    grid-template-areas: 
-    "header"
-    "titulo1"
-    "seccion1"
-    "titulo2"
-    "seccion2"
-    "footer"
-    ;
-}
-
-#busca {
-    display: grid;
-    grid-template-columns: 100% ;
-    grid-template-rows:100px 2% auto 2% auto 50px;
-    grid-template-areas: 
-    "header"
-    "titulo1"
-    "seccion1"
-    "titulo2"
-    "seccion2"
-    "footer"
-    ;
-}
-
-#contacto {
-    display: grid;
-    grid-template-columns: 100% ;
-    grid-template-rows:100px 2% auto 2% auto 50px;
-    grid-template-areas: 
-    "header"
-    "titulo1"
-    "seccion1"
-    "titulo2"
-    "seccion2"
-    "footer"
-    ;
-}
-
-#compra {
-    display: grid;
-    grid-template-columns: 100% ;
-    grid-template-rows:100px 2% auto 2% auto 50px;
-    grid-template-areas: 
-    "header"
-    "titulo1"
-    "seccion1"
-    "titulo2"
-    "seccion2"
-    "footer"
-    ;
-}
-
-
-/*
-#servicios {
-    display: grid;
-    grid-template-columns: 100% ;
-    grid-template-rows:100px 2% auto 2% auto 50px;
-    grid-template-areas: 
-    "header"
-    "titulo1"
-    "seccion1"
-    "titulo2"
-    "seccion2"
-    "footer"
-    ;
-}
-*/
-
 .servicios {
     margin-top: 30px;
 }
-.contactarme {
+.form__boton {
     background-color: #e40647;
     font-family: 'Manjari', sans-serif;
     border-radius: 10%;
@@ -429,18 +285,4 @@ h2 {
 form input {
     border-radius: 10%;
     padding: 2px;
-    
 }
-
-/*
-.img-evento {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;  
-}
-
-*/

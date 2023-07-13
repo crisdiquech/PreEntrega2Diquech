@@ -50,41 +50,44 @@
           </nav>
     </header>
 
-
+    <section class="ingresa">
+    <div class="container text-center">
+      <div class="row">
     <h2 class="ingresa"> INGRESA</h2>
-        <section class="ingresa">
+      </div>
+        <div class="row">
             <form action="#" enctype="application/x-www-form-urlencoded" method="GET">
                 <label for="email"></label>
                 <input type="email" id="email" name="email" placeholder="Email"><br><br>
                 <label for="password"></label>
                 <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
-                <input type="submit" value="INGRESAR"><br><br>
-                <a href="#" class="ingresa">Olvidé mi contraseña</a>
-            </form><br><br> 
+                <input class="form__boton" type="submit" value="INGRESAR"><br>
+                <a href="#" class="ingresa">Olvidé mi contraseña</a><br><br> 
+            </form>
             <form action="#" enctype="application/x-www-form-urlencoded" method="GET">
-                <input type="submit" value="Ingresar con Google"><br><br>
-                <h3 class="ingresa"> ¿No tenes usuario?</h3><br><br>
+                <input class="form__boton" type="submit" value="Ingresar con Google"><br><br>
+                <h3 class="ingresa"> ¿No tenes usuario?</h3>
                 <a href="./registrate.html" class="ingresa">REGISTRATE</a>
             </form>
+
+          </div>
+          </div>
         </section>
 
-        <footer>
-       
-            <div id="footer-pages">
-            <a href="../pages/contacto.html" class="footer">CONTACTO</a>
-            </div>
-            <div id="footer-social">
-            <a href="https://www.facebook.com"><img src="../images/FACEBOOK.png" class="redes"> </a>
-            <a href="https://www.instagram.com"><img src="../images/INSTAGRAM.png" class="redes"></a>
-            <a href="https://www.twitter.com"><img src="../images/TWITTER.png" class="redes"></a>
-            </div>
-            <div id="footer-derechos"> 
-                <h3 class="registro">©2022 - 2023 Todos los derechos reservados · TodoShow · Desarrollado por Cristian Diquech</h3>
-            </div>
-    
-        
-    
-    </footer>
-    <script src="../js/bootstrap.js"></script>
-    </body>
-    </html>
+        <footer>      
+          <div class="footer__pages">
+              <a href="../pages/contacto.html" class="footer">CONTACTO</a>
+          </div>
+          <div class="footer__social">
+              <a href="https://www.facebook.com"><img src="../images/FACEBOOK.png" class="redes"> </a>
+              <a href="https://www.instagram.com"><img src="../images/INSTAGRAM.png" class="redes"></a>
+              <a href="https://www.twitter.com"><img src="../images/TWITTER.png" class="redes"></a>
+          </div>
+          <div class="footer__derechos"> 
+              <h3>©2022 - 2023 Todos los derechos reservados · TodoShow · Desarrollado por Cristian Diquech</h3>
+          </div>
+      </footer>
+  
+      <script src="../js/bootstrap.js"></script>
+  </body>
+  </html>

@@ -51,6 +51,9 @@
     </header>
         
         <section id="busqueda">
+          <div class="conteiner text-center">
+          <div class="row">
+            <div class="col-lg-3">
             <form action="#" enctype="application/x-www-form-urlencoded" method="GET">
                 <label for="fecha"></label>
                 <input type="date" id="fecha" name="fecha"><br><br>
@@ -69,11 +72,12 @@
                 <label for="zonaoeste"> ZONA OESTE</label><br>
                 <input type="checkbox" id="zonanorte" name="zonanorte" value="zonanorte">
                 <label for="zonanorte"> ZONA NORTE</label><br><br>
-                <input type="submit" value="Buscar Shows">
+                <input class="form__boton" type="submit" value="Buscar Shows">
             </form>
-        </section>
+            </div>
+        
 
-        <main id="resultados">
+        <div id="resultados" class="col-lg-9">
             <h1> RESULTADOS</h1>
                 <table>
                     <tr>
@@ -89,25 +93,24 @@
                         <td><a href="../pages/compra.html"><img src="../images/20.jpg" alt="Evento 8"></a> </td>
                     </tr>    
                 </table> 
-        </main>
-
-        <footer>
-       
-            <div id="footer-pages">
+        </div>
+          </div>
+          </div>
+      </section>
+      <footer>      
+        <div class="footer__pages">
             <a href="../pages/contacto.html" class="footer">CONTACTO</a>
-            </div>
-            <div id="footer-social">
+        </div>
+        <div class="footer__social">
             <a href="https://www.facebook.com"><img src="../images/FACEBOOK.png" class="redes"> </a>
             <a href="https://www.instagram.com"><img src="../images/INSTAGRAM.png" class="redes"></a>
             <a href="https://www.twitter.com"><img src="../images/TWITTER.png" class="redes"></a>
-            </div>
-            <div id="footer-derechos"> 
-                <h3 class="registro">©2022 - 2023 Todos los derechos reservados · TodoShow · Desarrollado por Cristian Diquech</h3>
-            </div>
-    
-        
-    
+        </div>
+        <div class="footer__derechos"> 
+            <h3>©2022 - 2023 Todos los derechos reservados · TodoShow · Desarrollado por Cristian Diquech</h3>
+        </div>
     </footer>
+
     <script src="../js/bootstrap.js"></script>
-    </body>
-    </html>
+</body>
+</html>

@@ -52,7 +52,11 @@
     </header>
    
     <section class="registrate">
-        <h2 class="registrate"> CREA TU CUENTA</h2>           
+      <div class="container text-center">
+        <div class="row">
+        <h2 class="registrate"> CREA TU CUENTA</h2>
+      </div>
+      <div class="row">           
             <form action="#" enctype="application/x-www-form-urlencoded" method="GET">
 
                 <label for="email"></label>
@@ -61,29 +65,28 @@
                 <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
                 <input type="checkbox" id="tyc" name="tyc" value="acepta">
                 <label for="tyc"> Acepto términos y condiciones</label><br> 
-                <input type="submit" value="Registrarme">
+                <input class="form__boton" type="submit" value="Registrarme">
             </form>
+           </div>
+          </div>
     </section>
 
 
 
-    <footer>
-       
-        <div id="footer-pages">
-        <a href="../pages/contacto.html" class="footer">CONTACTO</a>
-        </div>
-        <div id="footer-social">
-        <a href="https://www.facebook.com"><img src="../images/FACEBOOK.png" class="redes"> </a>
-        <a href="https://www.instagram.com"><img src="../images/INSTAGRAM.png" class="redes"></a>
-        <a href="https://www.twitter.com"><img src="../images/TWITTER.png" class="redes"></a>
-        </div>
-        <div id="footer-derechos"> 
-            <h3 class="registro">©2022 - 2023 Todos los derechos reservados · TodoShow · Desarrollado por Cristian Diquech</h3>
-        </div>
+    <footer>      
+      <div class="footer__pages">
+          <a href="../pages/contacto.html" class="footer">CONTACTO</a>
+      </div>
+      <div class="footer__social">
+          <a href="https://www.facebook.com"><img src="../images/FACEBOOK.png" class="redes"> </a>
+          <a href="https://www.instagram.com"><img src="../images/INSTAGRAM.png" class="redes"></a>
+          <a href="https://www.twitter.com"><img src="../images/TWITTER.png" class="redes"></a>
+      </div>
+      <div class="footer__derechos"> 
+          <h3>©2022 - 2023 Todos los derechos reservados · TodoShow · Desarrollado por Cristian Diquech</h3>
+      </div>
+  </footer>
 
-    
-
-</footer>
-<script src="../js/bootstrap.js"></script>
+  <script src="../js/bootstrap.js"></script>
 </body>
 </html>
