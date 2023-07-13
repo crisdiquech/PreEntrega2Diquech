@@ -13,6 +13,8 @@ body {
     height: 100%;
 
     background-color: #282728;
+    position: relative;
+    min-height: 100vh;
     }
 
 header form {
@@ -254,4 +256,8 @@ footer {
     margin-top: 20px;
     bottom:0%;
     width: 100%;
+  }
+
+  .footer__secundario {
+    position: absolute;
   }
