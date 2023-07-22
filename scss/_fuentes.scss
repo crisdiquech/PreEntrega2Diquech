@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
+
+$fuente-primaria:'Manjari', sans-serif;
+
+.titulos-formularios {
+    font-family: $fuente-primaria;
+    font-size: large;
+}
+
+.contacto, .seccion__parrafo, .mision-vision  {
+    font-family: $fuente-primaria;
+    text-align: center;
+}
+
+h3, .form__texto  {
+    font-size: small;
+    font-family: $fuente-primaria;
+    text-align: center;  
+}
+
+.seccion__informacion, .formulario__selector {
+    font-family:$fuente-primaria;
+    font-size: medium;
+    text-align: center;
+}
+
+h2, .ingresa, .registrate, .consulta, .informacion, .footer, .footer__derechos, .seccion__titulos   {
+    font-family: $fuente-primaria;   
+}
+
