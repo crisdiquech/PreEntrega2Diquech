@@ -34,7 +34,80 @@ body {
     margin-right: 5px;
 }
 
-.seccion__titulos {
+.section__compras {
+    margin-top: 100px;
+}
+@media (max-width:768px) {
+    .section__compras {
+        margin-top: 10px;
+    }
+    
+}
+
+.section__ingresa {
+    margin-top: 100px;
+}
+@media (max-width:768px) {
+    .section__ingresa {
+        margin-top: 10px;
+    }
+    
+}
+
+.section__registrate {
+    margin-top: 100px;
+}
+@media (max-width:768px) {
+    .section__registrate {
+        margin-top: 10px;
+    }
+    
+}
+
+.section__contacto {
+    margin-top: 100px;
+}
+@media (max-width:768px) {
+    .section__contacto {
+        margin-top: 10px;
+    }
+    
+}
+
+.footer__contacto {
+    margin-top: 150px;
+}
+@media (max-width:768px) {
+    .footer__contacto {
+        margin-top: 10px;
+    }
+}
+
+.footer__login {
+    position: absolute;
+}
+@media (max-width:768px) {
+    .footer__login {
+        position: relative;
+        margin-top: 160px;
+    }
+}
+
+.footer__registrate {
+    position: absolute;
+}
+
+@media (max-width:768px) {
+    .footer__registrate {
+     position: relative;
+     margin-top: 220px;
+    }
+}
+    
+
+
+
+.seccion__titulos, .seccion__titulos--destacado {
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
