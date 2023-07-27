@@ -11873,7 +11873,7 @@ a:hover {
   color: #e40647;
 }
 
-h1, .h1, h3, .h3, h2, .h2, .nav__buscar:hover, .nav-link, .titulos-formularios, .seccion__titulos, .contacto, .form__texto, .seccion__parrafo, .formulario__selector,
+h1, .h1, h3, .h3, h2, .h2, .nav__buscar:hover, .nav-link, .titulos-formularios, .seccion__titulos, .seccion__titulos--registrate, .contacto, .form__texto, .seccion__parrafo, .formulario__selector,
 .mision-vision, .registrate, .ingresa, .informacion, .footer, .footer__pages, .footer__derechos {
   color: #f7f8f8;
 }
@@ -12089,7 +12089,7 @@ body {
     margin-top: 220px;
   }
 }
-.seccion__titulos, .seccion__titulos--destacado {
+.seccion__titulos, .seccion__titulos--destacado, .seccion__titulos--registrate {
   font-size: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -12139,11 +12139,13 @@ form input {
 }
 
 .titulos-formularios {
-  font-family: "Manjari", sans-serif;
   font-size: large;
+  font-family: "Manjari", sans-serif;
+  text-align: center;
 }
 
 .contacto, .seccion__parrafo, .mision-vision {
+  font-size: large;
   font-family: "Manjari", sans-serif;
   text-align: center;
 }
@@ -12155,12 +12157,12 @@ h3, .h3, .form__texto {
 }
 
 .seccion__informacion, .formulario__selector {
-  font-family: "Manjari", sans-serif;
   font-size: medium;
+  font-family: "Manjari", sans-serif;
   text-align: center;
 }
 
-h1, .h1, h2, .h2, .ingresa, .registrate, .consulta, .informacion, .footer, .footer__derechos, .seccion__titulos, .seccion__titulos--destacado {
+h1, .h1, h2, .h2, .ingresa, .registrate, .consulta, .informacion, .footer, .footer__derechos, .seccion__titulos, .seccion__titulos--destacado, .seccion__titulos--registrate {
   font-family: "Manjari", sans-serif;
 }
 
@@ -12181,7 +12183,7 @@ h1, .h1, h2, .h2, .ingresa, .registrate, .consulta, .informacion, .footer, .foot
     color: #e40647;
   }
 }
-.seccion__titulos--destacado {
+.seccion__titulos--destacado, .seccion__titulos--registrate {
   animation-name: resaltar;
   animation-iteration-count: infinite;
   animation-timing-function: linear;

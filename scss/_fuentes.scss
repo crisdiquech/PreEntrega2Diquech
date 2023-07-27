@@ -3,29 +3,32 @@
 
 $fuente-primaria:'Manjari', sans-serif;
 
+@mixin fonts($font-size, $font-family, $text-aling) {
+    font-size: $font-size;
+    font-family: $font-family;
+    text-align: $text-aling;
+}
+
+
 .titulos-formularios {
-    font-family: $fuente-primaria;
-    font-size: large;
+    @include fonts(large, $fuente-primaria, center);
 }
 
 .contacto, .seccion__parrafo, .mision-vision  {
-    font-family: $fuente-primaria;
-    text-align: center;
+    @include fonts(large, $fuente-primaria, center);
 }
 
 h3, .form__texto  {
-    font-size: small;
-    font-family: $fuente-primaria;
-    text-align: center;  
+    @include fonts(small, $fuente-primaria, center);
+    
 }
 
 .seccion__informacion, .formulario__selector {
-    font-family:$fuente-primaria;
-    font-size: medium;
-    text-align: center;
+    @include fonts(medium, $fuente-primaria, center);
+   
 }
 
-h1, h2, .ingresa, .registrate, .consulta, .informacion, .footer, .footer__derechos, .seccion__titulos, .seccion__titulos--destacado  {
+h1, h2, .ingresa, .registrate, .consulta, .informacion, .footer, .footer__derechos, .seccion__titulos, .seccion__titulos--destacado, .seccion__titulos--registrate {
     font-family: $fuente-primaria;   
 }
 

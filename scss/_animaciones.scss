@@ -10,7 +10,7 @@ $color-link:#e40647;
     75%{ color: #e43066;}
     100%{ color: #e40647 ;}
  }
-.seccion__titulos--destacado {
+.seccion__titulos--destacado, .seccion__titulos--registrate {
     animation-name: resaltar;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
