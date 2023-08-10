@@ -12064,7 +12064,7 @@ body {
   margin-top: 150px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .footer__contacto {
     margin-top: 10px;
   }
@@ -12073,7 +12073,7 @@ body {
   position: absolute;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .footer__login {
     position: relative;
     margin-top: 160px;
@@ -12083,7 +12083,7 @@ body {
   position: absolute;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .footer__registrate {
     position: relative;
     margin-top: 220px;
